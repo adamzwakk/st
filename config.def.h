@@ -8,6 +8,10 @@
 static char *font = "Liberation Mono:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 10;
 
+/* Spare fonts */
+static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
